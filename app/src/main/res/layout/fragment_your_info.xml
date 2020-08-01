@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_background"
+    tools:context=".Your_Info">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/investmentfor"
+            android:hint="@string/investment_for"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/recurring_text"
+            android:textSize="16sp"
+            android:text="@string/recurring_or_equity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/fixed"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Switch
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="10dp"
+                android:text="@string/variable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="@string/date_of_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:importantForAutofill="no" />
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="@string/number_of_units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="@string/purchase_price"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no" />
+        <Button
+            android:layout_margin="10dp"
+            android:text="@string/submit"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

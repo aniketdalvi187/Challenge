@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_info">your info</string>
+    <string name="know_about_you">know about you</string>
+    <string name="your_risk">your risk</string>
+    <string name="your_family">your family</string>
+    <string name="know_you_better">Know You Better</string>
+    <string name="investment_for">Who is this investment for?</string>
+    <string name="recurring_or_equity">is the equity one time or recurring?</string>
+    <string name="variable">Variable</string>
+    <string name="fixed">Fixed</string>
+    <string name="date_of_purchase">date of purchase</string>
+    <string name="number_of_units">number of units</string>
+    <string name="purchase_price">purchase price</string>
+    <string name="submit">submit</string>
+    <string name="logo">logo</string>
+    <string name="splash_screen">Splash Screen</string>
+</resources>
